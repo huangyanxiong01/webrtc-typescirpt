@@ -9,18 +9,14 @@ async function main() {
 
   peerConnection.addEventListener('icecandidate', async (event: RTCPeerConnectionIceEvent) => {
     if (event.candidate) {
-      console.log('candidate sending...: ', {
-        type: 'candidate',
-        sdpMLineIndex: event?.candidate?.sdpMLineIndex,
-        sdpMid: event?.candidate?.sdpMid,
-        sdp: event?.candidate?.candidate
-      })
-      socket.emit("candidate", {
+      let candidate = {
         type: 'candidate',
         sdpMLineIndex: event.candidate.sdpMLineIndex,
         sdpMid: event.candidate.sdpMid,
         sdp: event.candidate.candidate
-      })
+      };
+      console.log('sending candidate: ', candidate)
+      socket.emit("candidate", candidate)
     }
   });
 
