@@ -1,6 +1,6 @@
-# a webRTC example with typescript
-- share your Screen and Audio by WebRTC. 
-- exchange webRTC ICE,ANSWER,OFFER by websocket
+# WebRTC example with typescript
+- Share your Screen and Audio by WebRTC. 
+- Exchange webRTC ICE,ANSWER,OFFER by websocket
 
 ## Usage
 First. start websocket server by clone project [webrtc-stun](https://github.com/huangyanxiong01/webrtc-stun) to your computer.
@@ -12,6 +12,9 @@ pnpm start
 ```
 
 Now.open `http://localhost:8080/` and `http://localhost:8080/remote.html` in your browser.
+
+## Screenshot
+![webrtc](./src/assets/screenshot-1.png)
 
 ## Limitations
 - The user needs to opt in to sharing system sounds in the Chrome screen sharing dialog
