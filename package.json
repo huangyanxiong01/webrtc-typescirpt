@@ -1,7 +1,7 @@
 {
   "name": "webrtc-typescirpt",
   "version": "0.0.1",
-  "repository": "https://github.com/huangyanxiong01/webrtc-typescirpt.git",
+  "repository": "https://github.com/huangyanxiong01/webrtc-typescirpt",
   "homepage": "https://www.myfreax.com",
   "description": "a webRTC example with typescript",
   "main": "main.ts",

@@ -3,10 +3,10 @@
 - exchange webRTC ICE,ANSWER,OFFER by websocket
 
 ## Usage
-First. start websocket server by clone project [webRTC-STUN](https://github.com/huangyanxiong01/webRTC-STUN.git) to your computer.
+First. start websocket server by clone project [webrtc-stun](https://github.com/huangyanxiong01/webrtc-stun) to your computer.
 
 ```shell
-git clone https://github.com/huangyanxiong01/webrtc-typescirpt
+git clone git@github.com:huangyanxiong01/webrtc-typescirpt.git
 pnpm install
 pnpm start
 ```
